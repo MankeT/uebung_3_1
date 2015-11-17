@@ -1,6 +1,6 @@
 public class PQFormel {
 	public static void main(String[] args) {
-		// Initialisierung der Werte für p und q
+		// Initialisierung der Werte fÃ¼r p und q
 		double q = 15;
 		double p = 8;
 
@@ -9,11 +9,11 @@ public class PQFormel {
 		// Berechnung des Terms vor der Wurzel
 		double vorDerWurzel = -1 * p / 2;
 
-		// Berechnung der 2 Lösungen
+		// Berechnung der 2 LÃ¶sungen
 		double loesung1 = vorDerWurzel + Math.sqrt(unterDerWurzel);
 		double loesung2 = vorDerWurzel - Math.sqrt(unterDerWurzel);
 
-		// Ausgabe der Lösungen
+		// Ausgabe der LÃ¶sungen
 		System.out.println("x1 = " + loesung1);
 		System.out.println("x2 = " + loesung2);
 

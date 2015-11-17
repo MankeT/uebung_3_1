@@ -9,10 +9,10 @@ public class ErgaenzungPQFormel {
 		double vorderwurzel = -1 * (p / 2);
 
 		if (unterderwurzel < 0) {
-			System.out.println("Keine reele Lösung.");
+			System.out.println("Keine reele LÃ¶sung.");
 		} else {
 			if (unterderwurzel == 0) {
-				System.out.println("Nur eine Lösung, Lösung ist = "
+				System.out.println("Nur eine LÃ¶sung, LÃ¶sung ist = "
 						+ vorderwurzel);
 			} else {
 
